@@ -22,7 +22,7 @@ public class Selenium_Test {
 		String text=driver.findElementById("PID-ab2-pg").getText();
 		System.out.println(text);
 
-	if (text.contains("This is ananbout page")) {
+	if (text.contains("This is about page")) {
 		
 		 System.out.println("Pass");
 	}
